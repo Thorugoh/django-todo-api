@@ -56,7 +56,7 @@ ROOT_URLCONF = 'todoapi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['api/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
